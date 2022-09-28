@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Soussou Tayssir</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/touta.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Soussou Tayssir</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="github"><i class="bx bxl-github"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Soussou Tayssir</h1>
+      <p>Je suis Ingenieur <span class="typed" data-typed-items="Biotechnologie , Biochimiste, Biologiste"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          
+          <h2>About</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right" >
+            <img src="data:image/png;base64,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" class="img-fluid" alt="" width="150px" height="150px" >
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            
+            <p class="fst-italic">
+              
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>July 1997</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+216 54 302 002</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Monastir, Tunisia</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Engineer</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>taysir.soussou@gmail.com</span></li>
+                  
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <ul>
+          <li><p>La biotechnologie offre une alternative très prometteuse aux aliments synthétiques et permet d'améliorer la gestion des ressources phytogénétiques. Conjuguée à d'autres technologies agricoles avancées, elle offre un moyen de contribuer au développement d'une production durable et d'une consommation responsable. </p></li>
+          <li><p>L'ingénieur en biotechnologie utilise de façon industrielle les micro-organismes pour réaliser des transformations organiques. Il crée ainsi de nouvelles matières, de nouvelles énergies ou de nouvelles bactéries, qui serviront aux industries chimiques, pharmaceutiques ou encore agroalimentaires.</p></li>
+          <li><p>La biotechnologie est présente dans nos vies avant même notre naissance, de l’aide à la fertilité, du dépistage prénatal au test de grossesse à domicile. Il nous suit tout au long de notre enfance, grâce aux vaccins et aux antibiotiques, qui ont considérablement amélioré l’espérance de vie.</p></li>  
+        </ul>
+        </div>
+
+
+      </div>
+    </section><!-- End Facts Section -->
+
+   <!-- ======= Skills Section ======= -->
+   <section id="skills" class="skills section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Compétences informatique</h2>
+        
+        </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6" data-aos="fade-up">
+
+          <div class="progress">
+            <span class="skill">Microsoft Word<i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Microsoft Excel<i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+         
+
+        </div>
+
+        
+        <div class="col-lg-6" data-aos="fade-up" >
+          
+
+         
+          <div class="progress">
+            <span class="skill">Canva <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          
+
+            
+
+            <div class="progress">
+              <span class="skill">Microsoft Power Point<i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Curriculum Vitae</h2>
+          <p>Récemment diplômé, <strong>Ingénieur Biotechnologie</strong>, structuré, polyvalent et doté d'une grande capacité d'analyse.
+            A cela s'ajoutent mes excellentes capacités d'adaptation et de communication. Je suis prêt à m'investir sérieusement
+            et assidûment à mener à bien des projets.</p>
+          </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>SOUSSOU Tayssir</h4>
+              <p><em>Je suis à la recherche d'une première opportunité d'emploi qui me permettra d'approfondir mes connaissances professionnelles et d'enrichir mes compétences.</em></p>
+              <ul>
+                <p><strong>Contact</strong></p>
+                
+                <li>(+216) 54 302 002 </li>
+                <li>taysir.soussou@gmail.com</li>
+                <li>Lamta, Monastir, Tunisia</li>
+                
+              </ul>
+              <ul>
+                <p><strong>Compétences linguistiques</strong></p>
+                <li>Anglais (intermédiaire B1)</li>
+                <li>Français (intermédiaire supérieur B2)</li>
+                <li>Arabe (langue maternelle)</li>
+                <li>Italien (intermediate A2)</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <p>Je dispose de connaissances solides et équilibrées dans les disciplines fondamentales de la biotechnologie ainsi que dans les disciplines appliquées aux Sciences de l’Ingénieur.</p>
+            
+            <div class="resume-item">
+              
+              <h4>Génie Biotechnology</h4>
+              <h5>2019 - 2022</h5>
+              <p><em>Ecole Polytechnique Sousse, Sousse</em></p>
+              </div>
+            <div class="resume-item">
+              <h4>Technicien de laboratoire en biology moléculaire et cellulaire</h4>
+              <h5>2016 - 2019</h5>
+              <p><em>Institut Supérieur de Biotechnologies de Monastir, Monastir</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Baccalauréat Scientifique</h4>
+              <h5>2015 - 2016</h5>
+              <p><em>Lycée Secondaire de Lamta, Monastir</em></p>
+            </div>
+
+
+
+               <h3 class="resume-title">Certification</h3>
+               <div class="resume-item">
+                <h4>ISO 9001</h4>
+                <h5>2019</h5>
+                </div>
+                <div class="resume-item">
+                  <h4>Audit Interne</h4>
+                  <h5>2019</h5>
+                </div>
+                <div class="resume-item">
+                    <h4>TOIEC B1</h4>
+                    <h5>2022</h5>
+                </div>
+                <div class="resume-item">
+                  <h4>DELF B2</h4>
+                  <h5>2022</h5>
+                </div>
+                <h3 class="resume-title">Compétences professionnelles</h3>
+               <div class="resume-item">
+                <h4>Traitement des eaux : </h4>
+                <ul>
+                  <li>
+                <p>Analyses physsicochimiques : pH, conductivité, température, DCO, indice de boue, mesure des solides en suspension.</li>
+                <li><p>Etudes de performance de la STEP(charge massique et volumique, age de boue ...), Optmisation de fonctionnement de la station par la méthode des plans d'éxpérience. </p></li>
+                </ul>
+                </p>
+                
+                </div>
+                
+                <div class="resume-item">
+                  <h4>Microbiologie : </h4>
+                  <ul>
+                    <li>
+                  <p>Travail en condition stériles, Isolement de micro-organisme, culture en milieux, coloration, observation microscopique .</li>
+                  <li><p>Identification et dénombrement des micro-organismes, détermination de l'activité anti-microbienne, CMI et CMB </p></li>
+                  </ul>
+                  </p>
+                  
+                  </div>
+                  <div class="resume-item">
+                    <h4>Chromatographie</h4>
+                    </div>
+                    <div class="resume-item">
+                      <h4>Biologie : </h4>
+                      <ul>
+                        <li>
+                      <p> Moléculaire : Clonage, tranformation bactérienne, culture, extraction d'ADN et d'ARN, PCR, séquencage, électrophorése sur gel d'agarose et SDS-PAGE.</li>
+                      <li><p>Cellulaire : réalisation des lames.</p></li>
+                      </ul>
+                      </p>
+                      
+                      </div>  
+                      <div class="resume-item">
+                        <h4>Bio-Informatique</h4>
+                        </div>
+                        <div class="resume-item">
+                          <h4>Préparer des rapports de laboratoire et de recherche.</h4>
+                          </div>  
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Internships experience</h3>
+            <div class="resume-item">
+              <h4>Full-Stack Developer at Tunipack</h4>
+              <h5>Feb 2022 - June 2022</h5>
+              <p><em>Sousse, Tunisia </em></p>
+              <ul><p>Mission :</p>
+                <li>Implementation of a production monitoring system
+                  based on cloud computing.</li>
+              </ul>
+              <ul><p>Goals :</p>
+                <li>Control and manage processes throughout the life cycle
+                  production .</li>
+                <li>Implementation of management rules.
+                  Collect data from different parts of the supply chain
+                  work .</li>
+                <li>Generation of alerts and push notifications to
+                  managers on their mobile applications.</li>
+              </ul>
+              <ul><p>Results :</p>
+                <li>Implementation of an embedded system.</li>
+                <li>Creation of a cross-platform application which allowedto improve the performance indicators as well as a reduction of risk of errors.</li>
+                <li>Easier control over production line management.</li>
+                <li>View data in real time.</li>
+              </ul>
+              <ul>
+                <p>Technologies used:</p>
+                <li> Flutter, Microsoft Azure and Arduino</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Web developer at prosystem</h4>
+              <h5>June 2021 - August 2021</h5>
+              <p><em>Monastir, Tunisia</em></p>
+              <ul><p>Mission :</p>
+                <li>Design and creation of an e-wallet.</li>
+              </ul>
+              <ul><p>Goals :</p>
+                <li>Creation of a dematerialized space.</li>
+                <li>provide security and encryption of the personnal information.</li>
+                <li>The data will be stored in a blockchain.</li>
+              </ul>
+              <ul><p>Results :</p>
+                <li>Carry out secure P2P transactions from anywhere,
+                  So it's a significant time saver.</li>
+              </ul>
+              <ul>
+                <p>Technologies used:</p>
+                <li> Flask, Solidity, HTML, CSS, Bootstrap, Ajax and JQuery.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>technician internship at Monastir Governorate</h4>
+              <h5>July 2020 - August 2020</h5>
+              <p><em>Monastir, Tunisia</em></p>
+              <ul><p>Mission :</p>
+                <li>Maintenance of computers and computer network.</li>
+              </ul>
+              
+            </div>
+            <div class="resume-item">
+              <h4>Web Developer at IT service globe</h4>
+              <h5>June 2020 - July 2020</h5>
+              <p><em>Monastir, Tunisia</em></p>
+              <ul><p>Mission :</p>
+                <li>Design and development of an electronic portfolio.</li>
+              </ul>
+              <ul>
+                <p>Technologies used:</p>
+                <li> PHP, HTML, CSS, Bootstrap, Ajax and JQuery .</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+           
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="https://img.freepik.com/premium-vector/e-wallet-landing-page-website-illustration_128772-236.jpg?w=2000" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://img.freepik.com/premium-vector/e-wallet-landing-page-website-illustration_128772-236.jpg?w=2000" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="https://miro.medium.com/max/600/1*U3hYRNaDN8kOrUmqw01pVw.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://miro.medium.com/max/600/1*U3hYRNaDN8kOrUmqw01pVw.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web"><i class="bx bx-plus"></i></a>
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://anywhere365.io/wspstorage/2019/10/PowerBI-V10-Dashboard.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://anywhere365.io/wspstorage/2019/10/PowerBI-V10-Dashboard.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://5.imimg.com/data5/CX/YM/AJ/SELLER-50831584/library-management-software-500x500.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://5.imimg.com/data5/CX/YM/AJ/SELLER-50831584/library-management-software-500x500.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="https://lagrandeourse.design/wp-content/uploads/2021/01/Cre%CC%81er-un-bon-portfolio-pour-un-designer.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://lagrandeourse.design/wp-content/uploads/2021/01/Cre%CC%81er-un-bon-portfolio-pour-un-designer.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="https://blog.latrivenetacavi.com/wp-content/uploads/2018/09/smart-house-trasformare.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://blog.latrivenetacavi.com/wp-content/uploads/2018/09/smart-house-trasformare.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="https://s.tmimgcdn.com/scr/1200x750/53800/online-auction-auction-responsive-clean-html-website-template_53883-0-original.jpg" class="img-fluid" alt="" >
+              <div class="portfolio-links">
+                <a href="https://s.tmimgcdn.com/scr/1200x750/53800/online-auction-auction-responsive-clean-html-website-template_53883-0-original.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+           </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>5012 Sahline, Monastir, Tunisia</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>hammouda.ahmedmustapha@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+216 54 391 747</p>
+              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5769.439248453757!2d10.71081376631925!3d35.751094567855155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13020b7c4731bc19%3A0xc19a90db533c0df!2sSahline!5e0!3m2!1sfr!2stn!4v1664064543253!5m2!1sfr!2stn" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+               </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message">Temporarly unvailable</div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit" id="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2022</span></strong>
+      </div>
+      <div class="credits">
+       
+        Designed by <a href="#">ME</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
